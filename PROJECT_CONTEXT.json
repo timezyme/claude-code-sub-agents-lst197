@@ -1,0 +1,264 @@
+{
+  "project": {
+    "name": "claude-code-sub-agents-lst197",
+    "type": "Multi-Agent AI System Framework",
+    "version": "1.0.0",
+    "language": "typescript",
+    "status": "Active Development",
+    "created": "2025-08-03",
+    "license": "MIT"
+  },
+  "architecture": {
+    "pattern": "dispatcher-orchestrator-specialist",
+    "layers": {
+      "dispatcher": {
+        "file": "CLAUDE.md",
+        "role": "Entry point and complexity assessment",
+        "model": "default"
+      },
+      "orchestrator": {
+        "file": "agent-organizer.md",
+        "role": "Team assembly and workflow coordination",
+        "model": "haiku"
+      },
+      "context": {
+        "file": "context-manager.md",
+        "role": "State management and cross-agent communication",
+        "model": "haiku"
+      },
+      "specialists": {
+        "count": 41,
+        "core": 33,
+        "timezyme_specific": 8,
+        "model_distribution": {
+          "haiku": 4,
+          "sonnet": 37
+        }
+      }
+    }
+  },
+  "agents": {
+    "total": 41,
+    "categories": {
+      "orchestration": 3,
+      "development": 14,
+      "data_ai": 8,
+      "infrastructure": 5,
+      "quality_testing": 5,
+      "security": 1,
+      "documentation": 2,
+      "business": 1,
+      "timezyme_specific": 8
+    },
+    "directories": {
+      "business": ["product-manager.md"],
+      "data-ai": [
+        "ai-engineer.md",
+        "data-engineer.md",
+        "data-scientist.md",
+        "database-optimizer.md",
+        "graphql-architect.md",
+        "ml-engineer.md",
+        "prompt-engineer.md",
+        "sqlite3-pro.md"
+      ],
+      "development": [
+        "backend-architect.md",
+        "dx-optimizer.md",
+        "electron-pro.md",
+        "frontend-developer.md",
+        "full-stack-developer.md",
+        "golang-pro.md",
+        "legacy-modernizer.md",
+        "mobile-developer.md",
+        "nuxt4-pro.md",
+        "python-pro.md",
+        "typescript-pro.md",
+        "ui-designer.md",
+        "ux-designer.md"
+      ],
+      "infrastructure": [
+        "cloud-architect.md",
+        "deployment-engineer.md",
+        "devops-incident-responder.md",
+        "incident-responder.md",
+        "performance-engineer.md"
+      ],
+      "quality-testing": [
+        "architect-review.md",
+        "code-reviewer.md",
+        "debugger.md",
+        "qa-expert.md",
+        "test-automator.md"
+      ],
+      "security": ["security-auditor.md"],
+      "specialization": [
+        "api-documenter.md",
+        "documentation-expert.md"
+      ],
+      "docs_agents": [
+        "cloudflare-edge-engineer.md",
+        "i18n-accessibility-champion.md",
+        "polar-billing-specialist.md",
+        "timezyme-edge-specialist.md",
+        "timezyme-nuxt4-specialist.md",
+        "timezyme-quality-guardian.md",
+        "timezyme-saas-architect.md",
+        "timezyme-test-guardian.md"
+      ]
+    }
+  },
+  "mcp_servers": {
+    "configured": 6,
+    "servers": {
+      "sequentialthinking": {
+        "type": "docker",
+        "purpose": "Complex reasoning and multi-step analysis",
+        "usage_count": 28
+      },
+      "filesystem": {
+        "type": "npx",
+        "purpose": "File system operations",
+        "path": "/Users/spasco/Projects/github-timezyme/timezyme"
+      },
+      "puppeteer": {
+        "type": "npx",
+        "purpose": "Browser automation and testing",
+        "usage_count": 7
+      },
+      "magic": {
+        "type": "stdio",
+        "purpose": "UI component generation",
+        "usage_count": 3
+      },
+      "snap-happy": {
+        "type": "npx",
+        "purpose": "Screenshot capture",
+        "path": "/Users/spasco/Screenshots"
+      },
+      "serena": {
+        "type": "uvx",
+        "purpose": "IDE assistant and code analysis",
+        "path": "/Users/spasco/Projects/github-timezyme/timezyme"
+      }
+    }
+  },
+  "dependencies": {
+    "source": "Docs/package.json",
+    "type": "nuxt_application",
+    "framework": "Nuxt 4",
+    "key_dependencies": {
+      "nuxt": "^4.0.1",
+      "@nuxt/ui-pro": "3.2.0",
+      "@nuxthub/core": "^0.9.0",
+      "@nuxtjs/i18n": "9.5.6",
+      "@polar-sh/nuxt": "0.3.3",
+      "drizzle-orm": "^0.44.2",
+      "nuxt-auth-utils": "0.5.20",
+      "nuxt-llms": "^0.1.3",
+      "vue": "implicit_v3"
+    },
+    "dev_dependencies": {
+      "@playwright/test": "^1.53.2",
+      "better-sqlite3": "^12.2.0",
+      "drizzle-kit": "^0.31.1",
+      "eslint": "^9.30.1",
+      "husky": "^9.1.7",
+      "wrangler": "4.26.0"
+    },
+    "scripts": {
+      "dev": "nuxt dev",
+      "build": "NODE_OPTIONS=--max_old_space_size=8192 nuxt build",
+      "deploy": "npx nuxthub deploy",
+      "lint": "eslint .",
+      "typecheck": "nuxt typecheck",
+      "test:e2e": "playwright test",
+      "db:generate": "drizzle-kit generate"
+    }
+  },
+  "file_structure": {
+    "root_directories": [
+      "_images",
+      ".context-forge",
+      "business",
+      "data-ai",
+      "development",
+      "Docs",
+      "how-to",
+      "infrastructure",
+      "logs",
+      "PRPs",
+      "quality-testing",
+      "security",
+      "specialization",
+      "target-app-timezyme",
+      "tests"
+    ],
+    "key_files": {
+      "documentation": [
+        "README.md",
+        "PROJECT_INDEX.md",
+        "AI_SUMMARY.md",
+        "CLAUDE.md"
+      ],
+      "orchestration": [
+        "agent-organizer.md",
+        "context-manager.md"
+      ],
+      "configuration": [
+        "project.yml",
+        ".mcp.json",
+        ".gitignore",
+        ".ai-context.yaml"
+      ],
+      "tests": [
+        "tests/test-sqlite3-pro.js",
+        "tests/test-sqlite3-pro-simple.md"
+      ]
+    }
+  },
+  "environment": {
+    "git": {
+      "initialized": true,
+      "branch": "main",
+      "status": "modified_files"
+    },
+    "node": {
+      "package_manager": "pnpm@10.14.0",
+      "node_version": "inferred_18+"
+    },
+    "ide_integration": {
+      "claude_code": true,
+      "mcp_servers": true,
+      "context_forge": true
+    }
+  },
+  "performance_metrics": {
+    "token_usage": "300K-850K per complex workflow",
+    "team_size": "1-3 agents optimal",
+    "success_rate": "92% first-attempt",
+    "context_retention": "95%+",
+    "assembly_time": "2-5 seconds"
+  },
+  "communication_protocol": {
+    "format": "JSON",
+    "request_schema": {
+      "requesting_agent": "string",
+      "request_type": "string",
+      "payload": "object"
+    },
+    "response_schema": {
+      "reporting_agent": "string",
+      "status": "string",
+      "summary": "string",
+      "files_modified": "array"
+    }
+  },
+  "context_loaded": {
+    "timestamp": "2025-08-03T18:15:00Z",
+    "files_analyzed": 127,
+    "configuration_files": 6,
+    "agents_discovered": 41,
+    "cache_enabled": true
+  }
+}

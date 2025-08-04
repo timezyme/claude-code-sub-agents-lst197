@@ -1,6 +1,6 @@
 # Claude Code Subagents Collection
 
-A comprehensive collection of 33 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise and intelligent automation.
+A comprehensive collection of 32 specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to enhance development workflows with domain-specific expertise and intelligent automation.
 
 ## 🚀 Overview
 
@@ -25,8 +25,7 @@ Agents are now organized into logical categories for easier navigation:
 - **[frontend-developer](development/frontend-developer.md)** - Build React components, implement responsive layouts, and handle client-side state management
 - **[ui-designer](development/ui-designer.md)** - Creative UI design focused on user-friendly interfaces
 - **[ux-designer](development/ux-designer.md)** - User experience design and interaction optimization
-- **[react-pro](development/react-pro.md)** - Expert React development with hooks, performance optimization, and best practices
-- **[nextjs-pro](development/nextjs-pro.md)** - Next.js specialist for SSR, SSG, and full-stack React applications
+- **[nuxt4-pro](development/nuxt4-pro.md)** - Nuxt 4 specialist for SSR, SSG, and full-stack Vue applications
 
 **Backend & Architecture**
 
@@ -72,7 +71,7 @@ Agents are now organized into logical categories for easier navigation:
 - **[data-engineer](data-ai/data-engineer.md)** - Build ETL pipelines, data warehouses, and streaming architectures
 - **[data-scientist](data-ai/data-scientist.md)** - Data analysis expert for SQL queries, BigQuery operations, and data insights
 - **[database-optimizer](data-ai/database-optimizer.md)** - Optimize SQL queries, design efficient indexes, and handle database migrations
-- **[postgres-pro](data-ai/postgres-pro.md)** - PostgreSQL database expert for advanced queries and optimizations
+- **[sqlite3-pro](data-ai/sqlite3-pro.md)** - SQLite database expert for edge deployments and optimizations
 - **[graphql-architect](data-ai/graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation patterns
 
 **AI & Machine Learning**
@@ -287,7 +286,7 @@ When not using agent-organizer, specify the exact agent needed for your task:
 "Use backend-architect to design a REST API for user management"
 "Have frontend-developer create a responsive login form component"
 "Get python-pro to implement async data processing with proper error handling"
-"Have react-pro optimize this component for performance and add proper TypeScript types"
+"Have nuxt4-pro optimize this component for performance and add proper TypeScript types"
 "Use typescript-pro to refactor this module with advanced type safety"
 
 # Code Quality & Review
@@ -408,8 +407,7 @@ Claude Code automatically coordinates agents using these patterns:
 | **[python-pro](development/python-pro.md)** | Python development | Django/FastAPI apps, data processing, async programming |
 | **[golang-pro](development/golang-pro.md)** | Go development | Microservices, concurrent systems, CLI tools |
 | **[typescript-pro](development/typescript-pro.md)** | TypeScript development | Type-safe applications, advanced TS features |
-| **[react-pro](development/react-pro.md)** | React expertise | Hooks, performance optimization, advanced patterns |
-| **[nextjs-pro](development/nextjs-pro.md)** | Next.js applications | SSR/SSG, full-stack React, routing |
+| **[nuxt4-pro](development/nuxt4-pro.md)** | Nuxt 4 expertise | SSR/SSG, full-stack Vue, edge deployment |
 
 ### ☁️ Operations & Maintenance
 

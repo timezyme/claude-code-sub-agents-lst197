@@ -25,3 +25,6 @@ logs
 log
 
 .claude
+
+# Context Forge API keys
+.context-forge-api

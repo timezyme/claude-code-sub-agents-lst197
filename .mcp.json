@@ -1,0 +1,53 @@
+{
+  "mcpServers": {
+    "sequentialthinking": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "mcp/sequentialthinking"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/spasco/Projects/github-timezyme/timezyme"
+      ]
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "puppeteer-mcp-server"
+      ],
+      "env": {}
+    },
+    "magic": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@21st-dev/magic@latest",
+        "API_KEY=\"39cd99d3828a3a1a635428976f1fe54431b69a3d4ade7e8d6b24719408104e76\""
+      ],
+      "env": {}
+    },
+    "snap-happy": {
+      "command": "npx",
+      "args": ["@mariozechner/snap-happy"],
+      "env": {
+        "SNAP_HAPPY_SCREENSHOT_PATH": "/Users/spasco/Screenshots"
+      }
+    },
+    "serena": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena-mcp-server",
+        "--context",
+        "ide-assistant",
+        "--project",
+        "/Users/spasco/Projects/github-timezyme/timezyme"
+      ]
+    }
+  }
+}

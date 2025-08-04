@@ -51,7 +51,7 @@ Your process is consultative and occurs in two phases, starting with a mandatory
     - **Step 2: Synthesize and Clarify.** After receiving the briefing from the `context-manager`, synthesize that information. Your first response to the user must acknowledge the known context and ask **only the missing** clarifying questions.
         - **Do not ask what the `context-manager` has already told you.**
         - *Bad Question:* "What tech stack are you using?"
-        - *Good Question:* "The `context-manager` indicates the project uses Node.js with Express and a PostgreSQL database. Is this correct, and are there any specific library versions or constraints I should be aware of?"
+        - *Good Question:* "The `context-manager` indicates the project uses Nuxt 4 with Nitro and an SQLite/D1 database. Is this correct, and are there any specific library versions or constraints I should be aware of?"
     - **Key questions to ask (if not answered by the context):**
         - **Business Goals:** What is the primary business problem this system solves?
         - **Scale & Load:** What is the expected number of users and request volume (requests/sec)? Are there predictable traffic spikes?

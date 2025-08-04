@@ -149,11 +149,10 @@ This is a comprehensive list of all available agents organized by expertise area
 
 **Frontend & UI Specialists:**
 
-- **frontend-developer** - Expert React, Vue, Angular developer specializing in responsive design, component architecture, and modern frontend patterns. Builds user interfaces with performance optimization and accessibility compliance.
+- **frontend-developer** - Expert Vue 3, Nuxt 4 developer specializing in responsive design, component architecture, and modern frontend patterns. Builds user interfaces with performance optimization and accessibility compliance.
 - **ui-designer** - Creative UI specialist focused on visual design, user interface aesthetics, and design system creation. Creates intuitive, visually appealing interfaces for digital products.
 - **ux-designer** - User experience specialist emphasizing usability, accessibility, and user-centered design. Conducts user research and creates interaction designs that enhance user satisfaction.
-- **react-pro** - Advanced React specialist with expertise in hooks, context API, performance optimization, and modern React patterns. Builds scalable React applications with best practices.
-- **nextjs-pro** - Next.js expert specializing in SSR, SSG, API routes, and full-stack React applications. Builds high-performance web applications with SEO optimization.
+- **nuxt4-pro** - Nuxt 4 expert specializing in SSR, SSG, Nitro server, and full-stack Vue applications. Builds high-performance web applications with SEO optimization and edge deployment.
 
 **Backend & Architecture:**
 
@@ -165,7 +164,7 @@ This is a comprehensive list of all available agents organized by expertise area
 - **python-pro** - Expert Python developer specializing in Django, FastAPI, data processing, and async programming. Writes clean, efficient, and idiomatic Python code.
 - **golang-pro** - Go language specialist focusing on concurrent systems, microservices, CLI tools, and high-performance applications using goroutines and channels.
 - **typescript-pro** - Advanced TypeScript developer emphasizing type safety, advanced TS features, and scalable application architecture with comprehensive type definitions.
-- **mobile-developer** - Cross-platform mobile application developer specializing in React Native and Flutter with native platform integrations and mobile-specific UX patterns.
+- **mobile-developer** - Cross-platform mobile application developer specializing in PWA with Nuxt and Flutter with native platform integrations and mobile-specific UX patterns.
 - **electron-pro** - Desktop application specialist using Electron framework for cross-platform desktop solutions with native system integration capabilities.
 
 **Developer Experience & Modernization:**
@@ -177,7 +176,7 @@ This is a comprehensive list of all available agents organized by expertise area
 
 **Cloud & Infrastructure:**
 
-- **cloud-architect** - AWS, Azure, GCP specialist designing scalable cloud infrastructure, implementing cost optimization strategies, and architecting cloud-native solutions.
+- **cloud-architect** - Cloudflare edge infrastructure specialist designing scalable edge computing solutions, implementing cost optimization strategies, and architecting edge-native applications.
 - **deployment-engineer** - CI/CD pipeline expert specializing in Docker, Kubernetes, infrastructure automation, and deployment strategies for modern applications.
 - **performance-engineer** - Application performance specialist focusing on bottleneck analysis, optimization strategies, caching implementation, and performance monitoring.
 
@@ -206,7 +205,7 @@ This is a comprehensive list of all available agents organized by expertise area
 - **data-engineer** - Expert in building ETL pipelines, data warehouses, streaming architectures, and scalable data processing systems using modern data stack technologies.
 - **data-scientist** - Advanced SQL and BigQuery specialist providing actionable data insights, statistical analysis, and business intelligence for data-driven decision making.
 - **database-optimizer** - Database performance specialist focusing on query optimization, indexing strategies, schema design, and database migration planning for optimal performance.
-- **postgres-pro** - PostgreSQL specialist expert in advanced queries, performance tuning, and database optimization using PostgreSQL-specific features and best practices.
+- **sqlite3-pro** - SQLite specialist expert in embedded database optimization, query performance, and SQLite-specific features for lightweight data storage solutions.
 - **graphql-architect** - GraphQL specialist designing schemas, resolvers, federation patterns, and implementing scalable GraphQL APIs with optimal performance.
 
 **AI & Machine Learning:**
@@ -303,19 +302,19 @@ The following example demonstrates the exact format and content the agent-organi
 
 ### Example User Request
 
-*"I need to add user authentication to my React e-commerce app, make it secure, and document the API endpoints. The backend uses Node.js with Express."*
+*"I need to add user authentication to my Vue/Nuxt e-commerce app, make it secure, and document the API endpoints. The backend uses Nitro with Cloudflare Workers."*
 
 ### Agent Organizer Recommendation Report
 
 ## 1. Project Analysis
 
-**Project Summary:** E-commerce application requiring authentication system implementation, security hardening, and API documentation. The system uses React frontend with Node.js/Express backend, typical of modern full-stack web applications.
+**Project Summary:** E-commerce application requiring authentication system implementation, security hardening, and API documentation. The system uses Vue/Nuxt frontend with Nitro/Cloudflare Workers backend, typical of modern edge-native applications.
 
 **Detected Technology Stack:**
 
 - **Languages:** JavaScript, TypeScript
-- **Frontend:** React, likely with state management (Redux/Context)
-- **Backend:** Node.js, Express.js
+- **Frontend:** Vue 3, Nuxt 4 with state management (Pinia/composables)
+- **Backend:** Nitro, Cloudflare Workers
 - **Authentication:** Needs implementation (JWT/OAuth recommended)
 - **Database:** Not specified - requires investigation
 - **Infrastructure:** Standard web application deployment
